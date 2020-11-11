@@ -13,12 +13,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
+    <style>
+        .sticky__scroll__top {
+            top: -100%;
+            
+        }
+    </style>
 
 </head>
 
 <body>
     <!-- header -->
-    <header>
+    <header class="sticky">
         <div class="container">
             <nav class="main__nav">
                 <a href="#" class="header_logo header__list">
@@ -390,10 +396,12 @@
     <div class="background">
         <div class="body container">
             <div class="business-card">
-                <h1 class="business-card__title">Seven's Turkish Grill <i class="fa fa-bookmark-o icon" aria-hidden="true"></i> </h1>
+                <h1 class="business-card__title">Seven's Turkish Grill <i class="fa fa-bookmark-o icon"
+                        aria-hidden="true"></i> </h1>
                 <div class="containers">
                     <div class="left">
-                        <a class="addr" href="#">Mediterranean Restaurants, Caterers, Middle Eastern Restaurants </a><br>
+                        <a class="addr" href="#">Mediterranean Restaurants, Caterers, Middle Eastern Restaurants
+                        </a><br>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -417,12 +425,11 @@
                         <p id="location" style="text-align: right;">158 W 72nd St <br>
                             New York, NY 10023</p>
                         <div style="margin-top: 20px;">
-                            <a href="#" id="map-button"><i
-                                    class="fas fa-directions"></i> Map & Direction</a>
+                            <a href="#" id="map-button"><i class="fas fa-directions"></i> Map & Direction</a>
                         </div>
                     </div>
                 </div>
-               
+
                 <div class="link">
                     <a href="#"> <i class="fa fa-external-link" aria-hidden="true"></i> Book a table</a>
                     <a href="#"> <i class="fa fa-cutlery" aria-hidden="true"></i> View Menu</a>
@@ -438,9 +445,12 @@
                     <div class="web-description">
                         <ul class="nav-link">
                             <div class="active__con">
-                                <li class="nav-item link__1 active" onclick="linkToggler('link__1')"><a href="#gl" >Gallery</a></li>
-                                <li class="nav-item link__2" onclick="linkToggler('link__2')"><a href="#mi">More Info</a></li>
-                                <li class="nav-item link__3" onclick="linkToggler('link__3')"><a href="#re">Reviews</a></li>
+                                <li class="nav-item link__1 active" onclick="linkToggler('link__1')"><a
+                                        href="#gl">Gallery</a></li>
+                                <li class="nav-item link__2" onclick="linkToggler('link__2')"><a href="#mi">More
+                                        Info</a></li>
+                                <li class="nav-item link__3" onclick="linkToggler('link__3')"><a href="#re">Reviews</a>
+                                </li>
 
                                 <li class="nav-item" style="float: right;font-size: 22px;"><i class="fa fa-phone"
                                         aria-hidden="true"></i> (212) 724-4700
@@ -448,7 +458,8 @@
                             </div>
                         </ul>
                         <div id="add-new-photo" id="gl">
-                            <button href="#" id="photo-button"><i class="fa fa-camera" aria-hidden="true"></i> Add a Photo</button>
+                            <button href="#" id="photo-button"><i class="fa fa-camera" aria-hidden="true"></i> Add a
+                                Photo</button>
                             <span class="add-new-phto-txt">Be the first to add a photo!</span>
                         </div>
 
@@ -486,12 +497,9 @@
                         </div>
                         <div class="description">
                             <p class="title">Neighborhoods</p>
-                            <p class="description-detail"><a
-                                    href="#">Lincoln
-                                    Square,</a> <a
-                                    href="#">Upper
-                                    West Side,</a> <a
-                                    href="#">Upper
+                            <p class="description-detail"><a href="#">Lincoln
+                                    Square,</a> <a href="#">Upper
+                                    West Side,</a> <a href="#">Upper
                                     Manhattan</a></p>
                         </div>
                         <div class="description">
@@ -500,14 +508,10 @@
                         </div>
                         <div class="description">
                             <p class="title">Categories</p>
-                            <p class="description-detail"><a
-                                    href="#">Mediterranean
+                            <p class="description-detail"><a href="#">Mediterranean
                                     Restaurants,</a><a href="#">
-                                    Caterers,</a><a
-                                    href="#">Middle
-                                    Eastern Restaurants,</a><a
-                                    href="#">Restaurants,</a><a
-                                    href="#">Seafood
+                                    Caterers,</a><a href="#">Middle
+                                    Eastern Restaurants,</a><a href="#">Restaurants,</a><a href="#">Seafood
                                     Restaurants</a></p>
                         </div>
                         <div class="description">
@@ -561,8 +565,8 @@
                         <br>
                         <a href="#" class="view__full__menu">View Full Menu</a>
                         <br>
-                        <p class="provided__by__txt" style="text-align: right;">Provided by <br><img src="./img/logo3.png" height="30px"
-                                width="30px"></p>
+                        <p class="provided__by__txt" style="text-align: right;">Provided by <br><img
+                                src="./img/logo3.png" height="30px" width="30px"></p>
                     </div>
                 </div>
             </div>
@@ -585,40 +589,40 @@
                 <div class="user-review">
                     <div class="main__user__review__profile">
                         <img src="./img/u1.png" class="user-profile">
-                    <div class="user__review__name__date">
-                        <a href="#" class="user-name">Sarit Ca.</a>
-                    <span class="date">07/12/2016
-                    </span>
-                    </div>
+                        <div class="user__review__name__date">
+                            <a href="#" class="user-name">Sarit Ca.</a>
+                            <span class="date">07/12/2016
+                            </span>
+                        </div>
                     </div>
                     <div class="rating-sec">
                         <div class="user-review-left">
                             <div class="overall__stars__main">
-                            <span class="fa fa-star checked rated__stars__overall"></span>
-                            <span class="fa fa-star checked rated__stars__overall" ></span>
-                            <span class="fa fa-star checked rated__stars__overall" ></span>
-                            <span class="fa fa-star unrated__stars rated__stars__overall" ></span>
-                            <span class="fa fa-star unrated__stars rated__stars__overall" ></span>
-                            <span class="overall__heading"> Overall </span></div><br>
-                            <span class="fa fa-star checked rated__stars__users" ></span>
-                            <span class="fa fa-star checked rated__stars__users" ></span>
-                            <span class="fa fa-star checked rated__stars__users" ></span>
-                            <span class="fa fa-star unrated__stars rated__stars__users" ></span>
-                            <span class="fa fa-star unrated__stars rated__stars__users" ></span> <span
+                                <span class="fa fa-star checked rated__stars__overall"></span>
+                                <span class="fa fa-star checked rated__stars__overall"></span>
+                                <span class="fa fa-star checked rated__stars__overall"></span>
+                                <span class="fa fa-star unrated__stars rated__stars__overall"></span>
+                                <span class="fa fa-star unrated__stars rated__stars__overall"></span>
+                                <span class="overall__heading"> Overall </span></div><br>
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star unrated__stars rated__stars__users"></span>
+                            <span class="fa fa-star unrated__stars rated__stars__users"></span> <span
                                 style="font-size: 12px;">Atmosphere</span><br>
 
-                            <span class="fa fa-star checked rated__stars__users" ></span>
-                            <span class="fa fa-star checked rated__stars__users" ></span>
-                            <span class="fa fa-star checked rated__stars__users" ></span>
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star checked rated__stars__users"></span>
                             <span class="fa fa-star checked rated__stars__users"></span>
                             <span class="fa fa-star rated__stars__users unrated__stars"></span> <span
                                 style="font-size: 12px;">Food</span><br>
 
-                            <span class="fa fa-star checked rated__stars__users" ></span>
-                            <span class="fa fa-star checked rated__stars__users" ></span>
-                            <span class="fa fa-star checked rated__stars__users" ></span>
                             <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star rated__stars__users unrated__stars" ></span> <span
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star rated__stars__users unrated__stars"></span> <span
                                 style="font-size: 12px;">Service</span>
                         </div>
 
@@ -628,27 +632,28 @@
 
                             <button class="helpful-btn"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
                                 Helpful (1)</button>
-                            <a class="share__link" href="#"><i class="fa fa-external-link" aria-hidden="true"></i> Share</a>
+                            <a class="share__link" href="#"><i class="fa fa-external-link" aria-hidden="true"></i>
+                                Share</a>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="user-review">
                     <div class="main__user__review__profile">
                         <img src="./img/u1.png" class="user-profile">
-                    <div class="user__review__name__date">
-                        <a href="#" class="user-name">Sarit Ca.</a>
-                    <span class="date">07/12/2016
-                    </span>
-                    </div>
+                        <div class="user__review__name__date">
+                            <a href="#" class="user-name">Sarit Ca.</a>
+                            <span class="date">07/12/2016
+                            </span>
+                        </div>
                     </div>
                     <div class="rating-sec">
                         <div class="user-review-left">
-                            <span class="fa fa-star checked rated__stars__users" ></span>
-                            <span class="fa fa-star checked rated__stars__users" ></span>
-                            <span class="fa fa-star checked rated__stars__users" ></span>
-                            <span class="fa fa-star unrated__stars rated__stars__users" ></span>
-                            <span class="fa fa-star unrated__stars rated__stars__users" ></span>
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star unrated__stars rated__stars__users"></span>
+                            <span class="fa fa-star unrated__stars rated__stars__users"></span>
                             Overall
                         </div>
 
@@ -660,27 +665,28 @@
 
                             <button class="helpful-btn"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
                                 Helpful (0)</button>
-                            <a class="share__link" href="#"><i class="fa fa-external-link" aria-hidden="true"></i> Share</a>
+                            <a class="share__link" href="#"><i class="fa fa-external-link" aria-hidden="true"></i>
+                                Share</a>
                         </div>
                     </div>
                 </div>
-               
+
                 <div class="user-review">
                     <div class="main__user__review__profile">
                         <img src="./img/u1.png" class="user-profile">
-                    <div class="user__review__name__date">
-                        <a href="#" class="user-name">Sarit Ca.</a>
-                    <span class="date">07/12/2016
-                    </span>
-                    </div>
+                        <div class="user__review__name__date">
+                            <a href="#" class="user-name">Sarit Ca.</a>
+                            <span class="date">07/12/2016
+                            </span>
+                        </div>
                     </div>
                     <div class="rating-sec">
                         <div class="user-review-left">
-                            <span class="fa fa-star checked rated__stars__users" ></span>
-                            <span class="fa fa-star checked rated__stars__users" ></span>
-                            <span class="fa fa-star checked rated__stars__users" ></span>
-                            <span class="fa fa-star unrated__stars rated__stars__users" ></span>
-                            <span class="fa fa-star unrated__stars rated__stars__users" ></span>
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star checked rated__stars__users"></span>
+                            <span class="fa fa-star unrated__stars rated__stars__users"></span>
+                            <span class="fa fa-star unrated__stars rated__stars__users"></span>
                             Overall
                         </div>
 
@@ -692,13 +698,14 @@
 
                             <button class="helpful-btn"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
                                 Helpful (0)</button>
-                            <a class="share__link" href="#"><i class="fa fa-external-link" aria-hidden="true"></i> Share</a>
+                            <a class="share__link" href="#"><i class="fa fa-external-link" aria-hidden="true"></i>
+                                Share</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-        </div> 
+        </div>
         <!-- restaurants detail end -->
         <!-- footer -->
         <footer>

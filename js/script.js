@@ -24,7 +24,7 @@ try {
     // 2nd Nav
     document.addEventListener("scroll", () => {
         console.log(scrollY)
-        if (scrollY > 580) {
+        if (scrollY > 520) {
             document.querySelector(".nav-link").classList.add("active");
             console.log("true");
         }
@@ -45,7 +45,7 @@ try {
         selectLink.classList.add('active');
     }
 } catch (err) {
-    console.log(e);
+    console.log(err);
 }
 try {
     // 2nd Nav
@@ -57,5 +57,49 @@ try {
         defaultSubMenu.classList.toggle('active');
     });
 } catch (err) {
-    console.log(e);
+    console.log(err);
+}
+
+try {
+    // Detail Page Header
+    document.addEventListener("scroll", () => {
+        console.log(scrollY)
+        if (scrollY > 520) {
+            document.querySelector(".sticky").classList.add("sticky__scroll__top");
+            console.log('ture');
+
+        }
+        else {
+            document.querySelector(".sticky").classList.remove("sticky__scroll__top");
+
+        }
+    })
+
+} catch (err) {
+    console.log(err);
+}
+try {
+    var listItem = document.querySelectorAll('list__link__hasChild');
+    var contentList = document.querySelectorAll('.link__sub__menu');
+
+    listItem.forEach(item => { item.addEventListener('click', changeMenu) });
+
+    function deacContent() {
+        contentList.forEach(item => { item.classList.remove('active') })
+    }
+
+    function deacMenu() {
+        listItem.forEach(item => { item.classList.remove('active') })
+    }
+
+    function changeMenu(e) {
+        deacMenu()
+        this.classList.add('active');
+        var activeContent = document.querySelector(`#${this.id}-content`);
+        deacContent()
+        activeContent.classList.add('active');
+    }
+
+} catch (err) {
+    console.log(err);
 }

@@ -17,6 +17,33 @@
 </head>
 
 <body>
+    <!-- header top -->
+    <section class="header__top">
+        <div class="container">
+            <nav class="header__top__nav">
+                <ul class="header__top__list">
+                    <li class="header__top__item">
+                        <span id="header__top__link__1" class="header__top__header__list__link">Questions & Answers <i class="fas fa-angle-down"></i></span>
+                        <div id="header__top__link__1__list" class="header__top__list__link__sub__menu"></div>
+                    </li>
+                    <li class="header__top__item">
+                        <span id="header__top__link__1" class="header__top__header__list__link">City Pages <i class="fas fa-angle-down"></i></span>
+                        <div id="header__top__link__1__list" class="header__top__list__link__sub__menu"></div>
+                    </li>
+                    <li class="header__top__item">
+                        <a href="#" class="header__top__header__list__link"><i class="far fa-star"></i> Write a Review</a>
+                       
+                    </li>
+                    <li class="header__top__item">
+                        <a href="#" class="header__top__header__list__link"><i class="fas fa-signal"></i> Advertise With Us</a>
+                       
+                    </li>
+                </ul>
+                <a class="header__top__ccpa" href="#">CCPA</a>
+            </nav>
+        </div>
+    </section>
+    <!-- header top end -->
     <!-- header -->
     <header>
         <div class="container">
@@ -568,7 +595,7 @@
         </div>
     </div>
     <section class="home__cards__main">
-        <div class="home__card__container">
+        <div class="home__card__container container">
             <h1 class="home__card__title">
                 <img src="./img/print-cash-icon-23.svg" alt="pay img"> Coupons & Deals in San Francisco <a href="#"
                     class="home__view__all">View All »</a>
@@ -646,8 +673,7 @@
                             </div>
                         </div>
                         <div class="home__card__box">
-                            <img src="./img/aasdsad.jpg" alt="img"
-                                class="home__card__box__img">
+                            <img src="./img/aasdsad.jpg" alt="img" class="home__card__box__img">
                             <p class="home__card__box__title">Up to 57% Off at Coffee Cultures</p>
                             <p class="home__card__box__txt">Coffee Cultures</p>
                             <p class="home__card__box__txt__blue">San Francisco, CA</p>
@@ -878,7 +904,25 @@
     <!-- footer end -->
 
     <script src="./js/script.js"></script>
+    <script type="text/javascript">
+        try {
+            // Home Page Header
+            document.addEventListener("scroll", () => {
+                console.log(scrollY)
+                if (scrollY > 282) {
+                    document.querySelector("header").classList.add("sticky");
+                    console.log('ture');
 
+                }
+                else {
+                    document.querySelector("header").classList.remove("sticky");
+                }
+            })
+
+        } catch (err) {
+            console.log(err);
+        }
+    </script>
 </body>
 
 </html>
