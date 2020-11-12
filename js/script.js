@@ -79,25 +79,29 @@ try {
     console.log(err);
 }
 try {
-    var listItem = document.querySelectorAll('list__link__hasChild');
+    var listItem = document.querySelectorAll('.header__top__item');
     var contentList = document.querySelectorAll('.link__sub__menu');
 
     listItem.forEach(item => { item.addEventListener('click', changeMenu) });
-
-    function deacContent() {
-        contentList.forEach(item => { item.classList.remove('active') })
-    }
 
     function deacMenu() {
         listItem.forEach(item => { item.classList.remove('active') })
     }
 
+    let open = 'open';
+
     function changeMenu(e) {
-        deacMenu()
-        this.classList.add('active');
-        var activeContent = document.querySelector(`#${this.id}-content`);
-        deacContent()
-        activeContent.classList.add('active');
+        
+        if (open === 'open') {
+            deacMenu();
+            this.classList.add('active');
+            open = 'close';
+
+        }else{
+            deacMenu();
+            open = 'open';
+        }
+        
     }
 
 } catch (err) {
