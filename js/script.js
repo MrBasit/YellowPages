@@ -80,7 +80,6 @@ try {
 }
 try {
     var listItem = document.querySelectorAll('.header__top__item');
-    var contentList = document.querySelectorAll('.link__sub__menu');
 
     listItem.forEach(item => { item.addEventListener('click', changeMenu) });
 
@@ -88,20 +87,60 @@ try {
         listItem.forEach(item => { item.classList.remove('active') })
     }
 
-    let open = 'open';
-
     function changeMenu(e) {
         
-        if (open === 'open') {
+        if (e.target.parentElement.classList.contains('active')) {
             deacMenu();
-            this.classList.add('active');
-            open = 'close';
 
         }else{
             deacMenu();
-            open = 'open';
+            this.classList.add('active');
         }
         
+    }
+
+} catch (err) {
+    console.log(err);
+}
+// Asidebar Inside Nav
+try {
+    var listItemLinks = document.querySelectorAll('.aside__header__ul__li__item');
+
+    listItemLinks.forEach(item => { item.addEventListener('click', changeMenuForAsideBar) });
+
+    function deacMenuForAsideBar() {
+        listItemLinks.forEach(item => { item.classList.remove('active') })
+    }
+
+    function changeMenuForAsideBar(e) {
+        if (e.target.parentElement.classList.contains('active')) {
+            deacMenuForAsideBar();
+
+        }else {
+            deacMenuForAsideBar();
+            this.classList.add('active');
+            console.log('salse');
+        }
+    }
+
+} catch (err) {
+    console.log(err);
+}
+// Asidebar Menu
+try {
+    const asideBarTrigger = document.querySelector('.hamburger');
+    const asideBarContentbody = document.querySelector('body');
+    const asideBarOverlay = document.querySelector('.header__aside__overlay');
+    const asideBar = document.querySelector('.aside__header');
+    const mainContent = document.querySelector('.main__content__for__mobile');
+
+    asideBarTrigger.addEventListener('click', asideBarFunc);
+    asideBarOverlay.addEventListener('click', asideBarFunc);
+
+    function asideBarFunc() {
+        asideBar.classList.toggle('active');
+        mainContent.classList.toggle('active');
+        asideBarContentbody.classList.toggle('active');
     }
 
 } catch (err) {

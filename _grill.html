@@ -14,887 +14,1358 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
     <style>
-        .sticky__scroll__top {
+        /* .grill.sticky__scroll__top {
             top: -100%;
-            
-        }
+
+        } */
     </style>
 
 </head>
 
 <body>
-    <!-- header -->
-    <header class="sticky">
-        <div class="container">
-            <nav class="main__nav">
-                <a href="#" class="header_logo header__list">
-                    <img class="logo" src="./img/the_real_yp_logo_global.svg" alt="site logo">
-                </a>
-                <ul class="header__list">
-                    <li class="header__list__item menu-item-has-children">
-                        <a href="#" class="header__list__link browse">Browse <i
-                                class="fas fa-sort-down header__list__link__arrow"></i></a>
-                        <div class="header__list__sub__menu single__col__menu border__main2 sub_menu_main">
-                            <ul class="header__list__sub__menu__list ">
-                                <li class="header__list__sub__menu__item">
-                                    <span class="header__list__sub__menu__item__link"> <img
-                                            class="header__list__sub__menu__item__icon" src="./img/auto-services.svg"
-                                            alt=""> auto services</span>
-                                    <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
-                                        <ul class="sub__menu__item__inner__sub__list">
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
-                                                    Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
-                                                    Repair</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Car Detailing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Roadside
-                                                    Assistance</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Window Tinting</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="header__list__sub__menu__item">
-                                    <span class="header__list__sub__menu__item__link"> <img
-                                            class="header__list__sub__menu__item__icon" src="./img/beauty.svg" alt="">
-                                        beauty</span>
-                                    <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
-                                        <ul class="sub__menu__item__inner__sub__list">
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Barber Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Beauty Salons</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Beauty
-                                                    Supplies</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Day Spas</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Facial Salons</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Hair Removal</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Hair Supplies</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Hair Stylists</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Massage</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Nail Salons</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="header__list__sub__menu__item">
-                                    <span class="header__list__sub__menu__item__link"> <img
-                                            class="header__list__sub__menu__item__icon" src="./img/home-services.svg"
-                                            alt=""> home services</span>
-                                    <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
-                                        <ul class="sub__menu__item__inner__sub__list">
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
-                                                    Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
-                                                    Repair</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Car Detailing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Roadside
-                                                    Assistance</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Window Tinting</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="header__list__sub__menu__item">
-                                    <span class="header__list__sub__menu__item__link"> <img
-                                            class="header__list__sub__menu__item__icon" src="./img/insurance.svg"
-                                            alt="">insurance</span>
-                                    <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
-                                        <ul class="sub__menu__item__inner__sub__list">
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
-                                                    Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
-                                                    Repair</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Car Detailing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Roadside
-                                                    Assistance</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Window Tinting</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="header__list__sub__menu__item">
-                                    <span class="header__list__sub__menu__item__link"> <img
-                                            class="header__list__sub__menu__item__icon" src="./img/legal-services.svg"
-                                            alt="">legal services</span>
-                                    <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
-                                        <ul class="sub__menu__item__inner__sub__list">
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
-                                                    Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
-                                                    Repair</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Car Detailing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Roadside
-                                                    Assistance</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Window Tinting</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="header__list__sub__menu__item">
-                                    <span class="header__list__sub__menu__item__link"> <img
-                                            class="header__list__sub__menu__item__icon" src="./img/medical-services.svg"
-                                            alt="">medical services</span>
-                                    <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
-                                        <ul class="sub__menu__item__inner__sub__list">
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
-                                                    Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
-                                                    Repair</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Car Detailing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Roadside
-                                                    Assistance</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Window Tinting</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="header__list__sub__menu__item">
-                                    <span class="header__list__sub__menu__item__link"> <img
-                                            class="header__list__sub__menu__item__icon" src="./img/pet-services.svg"
-                                            alt="">pet services</span>
-                                    <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
-                                        <ul class="sub__menu__item__inner__sub__list">
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
-                                                    Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
-                                                    Repair</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Car Detailing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Roadside
-                                                    Assistance</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Window Tinting</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="header__list__sub__menu__item">
-                                    <span class="header__list__sub__menu__item__link"> <img
-                                            class="header__list__sub__menu__item__icon" src="./img/restaurants.svg"
-                                            alt="">restaurants</span>
-                                    <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
-                                        <ul class="sub__menu__item__inner__sub__list">
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
-                                                    Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
-                                                    Repair</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Car Detailing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Roadside
-                                                    Assistance</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
-                                            </li>
-                                            <li class="sub__menu__item__inner__sub__menu__item">
-                                                <a href="#" class="sub__menu__item__inner__sub__link">Window Tinting</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="header__list header__list__2__main">
-                    <form class="header__loc__form" id="header__loc__form" name="header__loc__form">
-                        <li class="header__list__2__main__item header__list__2__main__border first_feild"
-                            onclick="toggleBorder('first_feild')">
-                            <label class="header__list__2__main__icon" for="searchbox">
-                                <i class="fas fa-search"></i>
-                            </label>
-                            <input id="searchbox" name="searchbox" type="search"
-                                placeholder="What are you looking for?">
-                        </li>
-                        <li class="header__list__2__main__item header__list__2__main__border second_feild"
-                            onclick="toggleBorder('second_feild')">
-                            <label class="header__list__2__main__icon" for="locsearch">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </label>
-                            <input id="locsearch" name="locsearch" type="search" value="San Francisco, CA">
-                        </li>
-                        <li class="header__list__2__main__item header__list__2__main__btn">
-                            <input class="header__list__2__main__item__btn" type="button" value="FIND">
-                        </li>
-                    </form>
-                </ul>
-                <ul class="header__list header__login__signup">
-                    <li class="header__list__item">
-                        <a href="#" class="header__list__link">Log In</a>
-                    </li>
-                    <li class="header__list__item">
-                        <span>
-                            <i class="fas fa-circle"></i>
-                        </span>
-                    </li>
-                    <li class="header__list__item">
-                        <a href="#" class="header__list__link">Sign Up</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- header end -->
-    <!-- restaurants detail -->
-    <div class="background">
-        <div class="body container">
-            <div class="business-card">
-                <h1 class="business-card__title">Seven's Turkish Grill <i class="fa fa-bookmark-o icon"
-                        aria-hidden="true"></i> </h1>
-                <div class="containers">
-                    <div class="left">
-                        <a class="addr" href="#">Mediterranean Restaurants, Caterers, Middle Eastern Restaurants
-                        </a><br>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <i class="fa fa-star-half-o checked" aria-hidden="true"></i>
-                        <a class="left__view" href="#">(9 reviews)</a>
-
-                        <p id="closed"><i class="fas fa-square"></i> Closed Now</p>
-                        <p id="timing" style="margin-bottom:10px">Today: 11:00 am - 10:30 pm<br>
-                            Tomorrow: 11:00 am - 10:30 pm</p>
-                        <div class="count">
-                            <div id="number">
-                                14
-                            </div>
-                            <p>Years <br> in Business</p>
-                        </div>
-                    </div>
-
-                    <div class="right">
-                        <h3 id="phone"><i class="fa fa-phone" aria-hidden="true"></i> (212) 724-4700</h3>
-                        <p id="location" style="text-align: right;">158 W 72nd St <br>
-                            New York, NY 10023</p>
-                        <div style="margin-top: 20px;">
-                            <a href="#" id="map-button"><i class="fas fa-directions"></i> Map & Direction</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="link">
-                    <a href="#"> <i class="fa fa-external-link" aria-hidden="true"></i> Book a table</a>
-                    <a href="#"> <i class="fa fa-cutlery" aria-hidden="true"></i> View Menu</a>
-                </div>
-
-            </div>
-
-            <div class="main">
-                <div class="main-left">
-                    <div class="msg">
-                        Please contact the business for updated hours/services due to the COVID-19 advisory.
-                    </div>
-                    <div class="web-description">
-                        <ul class="nav-link">
-                            <div class="active__con">
-                                <li class="nav-item link__1 active" onclick="linkToggler('link__1')"><a
-                                        href="#gl">Gallery</a></li>
-                                <li class="nav-item link__2" onclick="linkToggler('link__2')"><a href="#mi">More
-                                        Info</a></li>
-                                <li class="nav-item link__3" onclick="linkToggler('link__3')"><a href="#re">Reviews</a>
-                                </li>
-
-                                <li class="nav-item" style="float: right;font-size: 22px;"><i class="fa fa-phone"
-                                        aria-hidden="true"></i> (212) 724-4700
-                                </li>
-                            </div>
-                        </ul>
-                        <div id="add-new-photo" id="gl">
-                            <button href="#" id="photo-button"><i class="fa fa-camera" aria-hidden="true"></i> Add a
-                                Photo</button>
-                            <span class="add-new-phto-txt">Be the first to add a photo!</span>
-                        </div>
-
-                        <div class="description" id="mi">
-                            <p class="title">General Info</p>
-                            <p class="description-detail">Here at Seven's Mediterranean Turkish Grill we use the
-                                freshest ingredients. None of the food is processed or frozen. Everything from our
-                                kebabs to our pita's are made fresh and in house. Our pita's have the perfect thickness
-                                and shape and are slathered with meats, cheeses, or vegetables, and sometimes all three!
-                                Our zucchini pancakes, served with a deliciously thick yogurt garlic sauce are an
-                                instant classic. Try one of our kebabs where you can mix and match each to savor the
-                                flavor. We offer delicious homemade specialties at prices under $20.We also make the
-                                best deserts that are prepared daily. Come on in or give us a call to cater your next
-                                party. There is also a daily 2 course lunch special with a complimentary glass of wine
-                                for $12.99.</p>
-                        </div>
-
-                        <div class="description">
-                            <p class="title">Hours</p>
-                            <p class="description-detail"><span>Regular Hours</span> <br><span>Mon - Sun:</span>
-                                11:00 am - 10:30 pm</p>
-                        </div>
-
-                        <div class="description">
-                            <p class="title">Services/Products</p>
-                            <p class="description-detail">* Lunch * Dinner * Catering</p>
-                        </div>
-                        <div class="description">
-                            <p class="title">Payment method</p>
-                            <p class="description-detail">Amex, Discover, Master Card, Visa</p>
-                        </div>
-                        <div class="description">
-                            <p class="title">Price Range</p>
-                            <p class="description-detail">$$</p>
-                        </div>
-                        <div class="description">
-                            <p class="title">Neighborhoods</p>
-                            <p class="description-detail"><a href="#">Lincoln
-                                    Square,</a> <a href="#">Upper
-                                    West Side,</a> <a href="#">Upper
-                                    Manhattan</a></p>
-                        </div>
-                        <div class="description">
-                            <p class="title">Languages</p>
-                            <p class="description-detail">English, Turkish</p>
-                        </div>
-                        <div class="description">
-                            <p class="title">Categories</p>
-                            <p class="description-detail"><a href="#">Mediterranean
-                                    Restaurants,</a><a href="#">
-                                    Caterers,</a><a href="#">Middle
-                                    Eastern Restaurants,</a><a href="#">Restaurants,</a><a href="#">Seafood
-                                    Restaurants</a></p>
-                        </div>
-                        <div class="description">
-                            <p class="title"><span>Other Information</span></p>
-                            <p class="description-detail">
-                                <span>Parking: </span> Street <br>
-                                <span>Wi-Fi: </span> No <br>
-                                <span>Bike Parking:</span> Yes <br>
-                                <span>Attire:</span> Casual <br>
-                                <span>Cuisines:</span> Mediterranean, Caterers, Seafood, Middle Eastern <br>
-                                <span>Alcohol:</span> Full Bar <br>
-                                <span>Takes Reservations:</span> Yes <br>
-                                <span>Outdoor Seating</span> No <br>
-                                <span>Price Range </span> Average <br>
-                                <span>Good For Groups: </span> Yes
-
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="main-right">
-                    <h4 class="main-right-title">SEVEN'S TURKISH GRILL MENU</h4>
-                    <div class="items">
-                        <a href="#" class="item-category">Soups/Corbalar</a>
-                        <p class="item-name">Lentil <label class="price">$4.75</label></p>
-                        <p class="item-name">Chicken Vegetable <label class="price">$4.75</label></p>
-                        <p class="item-name">Yayla Soup <label class="price">$4.75</label></p>
-                        <br>
-                        <a href="#" class="item-category">Salads</a>
-                        <p class="item-name">Shepherd's Salad (Coban Salatasi) <label class="price">$8.00</label></p>
-                        <p class="item-name">Shepherd's Salad with Feta Cheese <label class="price">$4.75</label></p>
-                        <p class="item-name">Mediterranean Salad (Akdeniz Salatasi) <label class="price">$4.75</label>
-                        </p>
-                        <br>
-                        <a href="#" class="item-category">Hot Appetizers</a>
-                        <p class="item-name">Octopus (Ahtapot Salatasi) <label class="price">$8.00</label></p>
-                        <p class="item-name">Pan Fried Eggplant (Patlican Kizartmasi) <label class="price">$7.50</label>
-                        </p>
-                        <p class="item-name">Fried Calamari (Kalamar Tava) <label class="price">$8.75</label></p>
-                        <br>
-                        <a href="#" class="item-category">Cold Appetizers</a>
-                        <p class="item-name">Mixed Appetizers (Karisik-Mezeler) <label class="price">$13.75</label></p>
-                        <p class="item-name">Lebni <label class="price">$6.50</label></p>
-                        <p class="item-name">Babaganush <label class="price">$7.00</label></p>
-                        <br>
-                        <a href="#" class="item-category">Entrees</a>
-                        <p class="item-name">Homemade Gyro / Doner Kebab <label class="price">$14.00</label></p>
-                        <p class="item-name">Alexander Kebab (Iskender Kebab) <label class="price">$17.25</label></p>
-                        <br>
-                        <a href="#" class="view__full__menu">View Full Menu</a>
-                        <br>
-                        <p class="provided__by__txt" style="text-align: right;">Provided by <br><img
-                                src="./img/logo3.png" height="30px" width="30px"></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="reviews" id="re">
-                <h3 class="review__title">Reviews</h3>
-                <div class="rating">
-                    <i class="fas fa-user-alt"></i>
-                    <label><b>Hi there,</b> <br> rate this business</label>
-                    <div class="stars__div">
-                        <span class="fa fa-star user-rating"></span>
-                        <span class="fa fa-star user-rating"></span>
-                        <span class="fa fa-star user-rating"></span>
-                        <span class="fa fa-star user-rating"></span>
-                        <span class="fa fa-star user-rating"></span>
-                    </div>
-                    <label style="padding: 10px;"> Click to Rate</label>
-                </div>
-
-                <div class="user-review">
-                    <div class="main__user__review__profile">
-                        <img src="./img/u1.png" class="user-profile">
-                        <div class="user__review__name__date">
-                            <a href="#" class="user-name">Sarit Ca.</a>
-                            <span class="date">07/12/2016
-                            </span>
-                        </div>
-                    </div>
-                    <div class="rating-sec">
-                        <div class="user-review-left">
-                            <div class="overall__stars__main">
-                                <span class="fa fa-star checked rated__stars__overall"></span>
-                                <span class="fa fa-star checked rated__stars__overall"></span>
-                                <span class="fa fa-star checked rated__stars__overall"></span>
-                                <span class="fa fa-star unrated__stars rated__stars__overall"></span>
-                                <span class="fa fa-star unrated__stars rated__stars__overall"></span>
-                                <span class="overall__heading"> Overall </span></div><br>
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star unrated__stars rated__stars__users"></span>
-                            <span class="fa fa-star unrated__stars rated__stars__users"></span> <span
-                                style="font-size: 12px;">Atmosphere</span><br>
-
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star rated__stars__users unrated__stars"></span> <span
-                                style="font-size: 12px;">Food</span><br>
-
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star rated__stars__users unrated__stars"></span> <span
-                                style="font-size: 12px;">Service</span>
-                        </div>
-
-                        <div class="user-review-right">
-                            <p class="user-comment">I would recommend trying this place to anyone. the food was really
-                                good. I had a great experience.</p>
-
-                            <button class="helpful-btn"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                                Helpful (1)</button>
-                            <a class="share__link" href="#"><i class="fa fa-external-link" aria-hidden="true"></i>
-                                Share</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="user-review">
-                    <div class="main__user__review__profile">
-                        <img src="./img/u1.png" class="user-profile">
-                        <div class="user__review__name__date">
-                            <a href="#" class="user-name">Sarit Ca.</a>
-                            <span class="date">07/12/2016
-                            </span>
-                        </div>
-                    </div>
-                    <div class="rating-sec">
-                        <div class="user-review-left">
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star unrated__stars rated__stars__users"></span>
-                            <span class="fa fa-star unrated__stars rated__stars__users"></span>
-                            Overall
-                        </div>
-
-                        <div class="user-review-right">
-                            <p class="user-comment">Great food, really enjoyed the experience. I've been to this place
-                                several times and I'll be back, telling all my friends about it.
-
-                            </p>
-
-                            <button class="helpful-btn"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                                Helpful (0)</button>
-                            <a class="share__link" href="#"><i class="fa fa-external-link" aria-hidden="true"></i>
-                                Share</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="user-review">
-                    <div class="main__user__review__profile">
-                        <img src="./img/u1.png" class="user-profile">
-                        <div class="user__review__name__date">
-                            <a href="#" class="user-name">Sarit Ca.</a>
-                            <span class="date">07/12/2016
-                            </span>
-                        </div>
-                    </div>
-                    <div class="rating-sec">
-                        <div class="user-review-left">
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star checked rated__stars__users"></span>
-                            <span class="fa fa-star unrated__stars rated__stars__users"></span>
-                            <span class="fa fa-star unrated__stars rated__stars__users"></span>
-                            Overall
-                        </div>
-
-                        <div class="user-review-right">
-                            <p class="user-comment">Great food, really enjoyed the experience. I've been to this place
-                                several times and I'll be back, telling all my friends about it.
-
-                            </p>
-
-                            <button class="helpful-btn"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                                Helpful (0)</button>
-                            <a class="share__link" href="#"><i class="fa fa-external-link" aria-hidden="true"></i>
-                                Share</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- restaurants detail end -->
-        <!-- footer -->
-        <footer>
+    <section class="main__content__for__mobile">
+        <!-- header -->
+        <header class="grill sticky">
             <div class="container">
-                <div class="footer__top">
-                    <div class="footer__col">
-                        <h3 class="footer__title">About</h3>
-                        <ul class="footer__col__list">
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">About Us</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Site Feedback</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Contact Us</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Legal</a><span>|</span><a href="#"
-                                    class="footer__col__item">Terms of Service and Use</a>"
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Advertise with Us</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Corporate Blog</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Privacy Policy</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Small Business Advertising</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Advertising Choices</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer__col">
-                        <h3 class="footer__title">Site Directory</h3>
-                        <ul class="footer__col__list">
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Articles</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">News</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Find a Business</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">White Pages</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">YP Mobile App</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Gas Guru Mobile App</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Reverse Phone Lookup</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Site Map</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Browse Restaurants</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer__col footer__col-3">
-                        <h3 class="footer__title">City Guides <a href="#" class="footer__subtitle">More Cities »</a>
-                        </h3>
-                        <div class="footer__col-3__nav">
-                            <ul class="footer__col__list">
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Atlanta</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Austin</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Baltimore</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Boston</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Charlotte</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Chicago</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Dallas</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Denver</a>
-                                </li>
-                            </ul>
-                            <ul class="footer__col__list">
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Detroit</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Houston</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Indianapolis</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Kansas City</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Las Vegas</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Los Angeles</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Louisville</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Memphis</a>
-                                </li>
-                            </ul>
-                            <ul class="footer__col__list">
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Miami</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Milwaukee</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">New York</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Oklahoma City</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Orlando</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Philadelphia</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Phoenix</a>
-                                </li>
-                                <li class="footer__col__item">
-                                    <a href="#" class="footer__col__item">Saint Louis</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer__col">
-                        <h3 class="footer__title">YP<sup>SM</sup> Family</h3>
-                        <ul class="footer__col__list">
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Corporate Site</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">Marketing Solutions</a>
-                            </li>
-                            <li class="footer__col__item">
-                                <a href="#" class="footer__col__item">AnyWho</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer__bottom">
-                    <ul class="footer__bottom__social">
-                        <li class="footer__bottom__social__item">
-                            <a href="#" class="footer__bottom__social__link fb"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li class="footer__bottom__social__item">
-                            <a href="#" class="footer__bottom__social__link tw"><i class="fab fa-twitter"></i></a>
+                <nav class="main__nav">
+                    <a href="#" class="header_logo header__list">
+                        <img class="logo logo1" src="./img/the_real_yp_logo_global.svg" alt="site logo">
+                        <img class="logo2" src="./img/the_real_yp_logo_home_2.svg" alt="site logo">
+                    </a>
+                    <ul class="header__list browse__nav">
+                        <li class="header__list__item menu-item-has-children">
+                            <a href="#" class="header__list__link browse">Browse <i
+                                    class="fas fa-sort-down header__list__link__arrow"></i></a>
+                            <div class="header__list__sub__menu single__col__menu border__main2 sub_menu_main">
+                                <ul class="header__list__sub__menu__list ">
+                                    <li class="header__list__sub__menu__item">
+                                        <span class="header__list__sub__menu__item__link"> <img
+                                                class="header__list__sub__menu__item__icon"
+                                                src="./img/auto-services.svg" alt=""> auto services</span>
+                                        <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
+                                            <ul class="sub__menu__item__inner__sub__list">
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
+                                                        Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
+                                                        Repair</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Car
+                                                        Detailing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Roadside
+                                                        Assistance</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Window
+                                                        Tinting</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="header__list__sub__menu__item">
+                                        <span class="header__list__sub__menu__item__link"> <img
+                                                class="header__list__sub__menu__item__icon" src="./img/beauty.svg"
+                                                alt="">
+                                            beauty</span>
+                                        <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
+                                            <ul class="sub__menu__item__inner__sub__list">
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Barber
+                                                        Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Beauty
+                                                        Salons</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Beauty
+                                                        Supplies</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Day Spas</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Facial
+                                                        Salons</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Hair
+                                                        Removal</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Hair
+                                                        Supplies</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Hair
+                                                        Stylists</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Massage</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Nail
+                                                        Salons</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="header__list__sub__menu__item">
+                                        <span class="header__list__sub__menu__item__link"> <img
+                                                class="header__list__sub__menu__item__icon"
+                                                src="./img/home-services.svg" alt=""> home services</span>
+                                        <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
+                                            <ul class="sub__menu__item__inner__sub__list">
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
+                                                        Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
+                                                        Repair</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Car
+                                                        Detailing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Roadside
+                                                        Assistance</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Window
+                                                        Tinting</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="header__list__sub__menu__item">
+                                        <span class="header__list__sub__menu__item__link"> <img
+                                                class="header__list__sub__menu__item__icon" src="./img/insurance.svg"
+                                                alt="">insurance</span>
+                                        <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
+                                            <ul class="sub__menu__item__inner__sub__list">
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
+                                                        Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
+                                                        Repair</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Car
+                                                        Detailing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Roadside
+                                                        Assistance</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Window
+                                                        Tinting</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="header__list__sub__menu__item">
+                                        <span class="header__list__sub__menu__item__link"> <img
+                                                class="header__list__sub__menu__item__icon"
+                                                src="./img/legal-services.svg" alt="">legal services</span>
+                                        <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
+                                            <ul class="sub__menu__item__inner__sub__list">
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
+                                                        Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
+                                                        Repair</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Car
+                                                        Detailing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Roadside
+                                                        Assistance</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Window
+                                                        Tinting</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="header__list__sub__menu__item">
+                                        <span class="header__list__sub__menu__item__link"> <img
+                                                class="header__list__sub__menu__item__icon"
+                                                src="./img/medical-services.svg" alt="">medical services</span>
+                                        <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
+                                            <ul class="sub__menu__item__inner__sub__list">
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
+                                                        Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
+                                                        Repair</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Car
+                                                        Detailing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Roadside
+                                                        Assistance</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Window
+                                                        Tinting</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="header__list__sub__menu__item">
+                                        <span class="header__list__sub__menu__item__link"> <img
+                                                class="header__list__sub__menu__item__icon" src="./img/pet-services.svg"
+                                                alt="">pet services</span>
+                                        <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
+                                            <ul class="sub__menu__item__inner__sub__list">
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
+                                                        Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
+                                                        Repair</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Car
+                                                        Detailing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Roadside
+                                                        Assistance</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Window
+                                                        Tinting</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="header__list__sub__menu__item">
+                                        <span class="header__list__sub__menu__item__link"> <img
+                                                class="header__list__sub__menu__item__icon" src="./img/restaurants.svg"
+                                                alt="">restaurants</span>
+                                        <div class="sub__menu__item__inner__sub__menu single__col__menu border__main">
+                                            <ul class="sub__menu__item__inner__sub__list">
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
+                                                        Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
+                                                        Repair</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Car
+                                                        Detailing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Roadside
+                                                        Assistance</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
+                                                </li>
+                                                <li class="sub__menu__item__inner__sub__menu__item">
+                                                    <a href="#" class="sub__menu__item__inner__sub__link">Window
+                                                        Tinting</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                     </ul>
-                    <p class="footer__bottom__txt">© 2020 Thryv, Inc. All rights reserved.</p>
-                    <p class="footer__bottom__txt">YP, the YP logo and all other YP marks contained herein are
-                        trademarks of YP LLC and/or YP affiliated companies.</p>
-                    <p class="footer__bottom__txt">All other marks contained herein are the property of their respective
-                        owners.</p>
-                </div>
+                    <ul class="header__list header__list__2__main">
+                        <form class="header__loc__form" id="header__loc__form" name="header__loc__form">
+                            <li class="header__list__2__main__item header__list__2__main__border first_feild"
+                                onclick="toggleBorder('first_feild')">
+                                <label class="header__list__2__main__icon" for="searchbox">
+                                    <i class="fas fa-search"></i>
+                                </label>
+                                <input id="searchbox" name="searchbox" type="search"
+                                    placeholder="What are you looking for?">
+                            </li>
+                            <li class="header__list__2__main__item header__list__2__main__border second_feild"
+                                onclick="toggleBorder('second_feild')">
+                                <label class="header__list__2__main__icon" for="locsearch">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </label>
+                                <input id="locsearch" name="locsearch" type="search" value="San Francisco, CA">
+                            </li>
+                            <li class="header__list__2__main__item header__list__2__main__btn">
+                                <input class="header__list__2__main__item__btn" type="button" value="FIND">
+                            </li>
+                        </form>
+                    </ul>
+                    <ul class="header__list header__login__signup">
+                        <li class="header__list__item">
+                            <a href="#" class="header__list__link">Log In</a>
+                        </li>
+                        <li class="header__list__item">
+                            <span>
+                                <i class="fas fa-circle"></i>
+                            </span>
+                        </li>
+                        <li class="header__list__item">
+                            <a href="#" class="header__list__link">Sign Up</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="use__our__mobile">
+                        Use our Free App <img src="./img/icon-cellphone.svg" alt="">
+                    </a>
+                    <span class="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </nav>
             </div>
-        </footer>
-        <!-- footer end -->
+        </header>
+        <!-- header end -->
+        <!-- restaurants detail -->
+        <div class="background">
+            <div class="body container">
+                <div class="business-card">
+                    <h1 class="business-card__title">Seven's Turkish Grill <i class="fa fa-bookmark-o icon"
+                            aria-hidden="true"></i> </h1>
+                    <div class="containers">
+                        <div class="left">
+                            <a class="addr" href="#">Mediterranean Restaurants, Caterers, Middle Eastern Restaurants
+                            </a><br>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <i class="fa fa-star-half-o checked" aria-hidden="true"></i>
+                            <a class="left__view" href="#">(9 reviews)</a>
 
-        <script src="./js/script.js"></script>
+                            <p id="closed"><i class="fas fa-square"></i> Closed Now</p>
+                            <p id="timing" style="margin-bottom:10px">Today: 11:00 am - 10:30 pm<br>
+                                Tomorrow: 11:00 am - 10:30 pm</p>
+                            <div class="count">
+                                <div id="number">
+                                    14
+                                </div>
+                                <p>Years <br> in Business</p>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <h3 id="phone"><i class="fa fa-phone" aria-hidden="true"></i> (212) 724-4700</h3>
+                            <p id="location" style="text-align: right;">158 W 72nd St <br>
+                                New York, NY 10023</p>
+                            <div style="margin-top: 20px;">
+                                <a href="#" id="map-button"><i class="fas fa-directions"></i> Map & Direction</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="link">
+                        <a href="#"> <i class="fa fa-external-link" aria-hidden="true"></i> Book a table</a>
+                        <a href="#"> <i class="fa fa-cutlery" aria-hidden="true"></i> View Menu</a>
+                    </div>
+
+                </div>
+
+                <div class="main">
+                    <div class="main-left">
+                        <div class="msg">
+                            Please contact the business for updated hours/services due to the COVID-19 advisory.
+                        </div>
+                        <div class="web-description">
+                            <ul class="nav-link">
+                                <div class="active__con">
+                                    <li class="nav-item link__1 active" onclick="linkToggler('link__1')"><a
+                                            href="#gl">Gallery</a></li>
+                                    <li class="nav-item link__2" onclick="linkToggler('link__2')"><a href="#mi">More
+                                            Info</a></li>
+                                    <li class="nav-item link__3" onclick="linkToggler('link__3')"><a
+                                            href="#re">Reviews</a>
+                                    </li>
+
+                                    <li class="nav-item" style="float: right;font-size: 22px;"><i class="fa fa-phone"
+                                            aria-hidden="true"></i> (212) 724-4700
+                                    </li>
+                                </div>
+                            </ul>
+                            <div id="add-new-photo" id="gl">
+                                <button href="#" id="photo-button"><i class="fa fa-camera" aria-hidden="true"></i> Add a
+                                    Photo</button>
+                                <span class="add-new-phto-txt">Be the first to add a photo!</span>
+                            </div>
+
+                            <div class="description" id="mi">
+                                <p class="title">General Info</p>
+                                <p class="description-detail">Here at Seven's Mediterranean Turkish Grill we use the
+                                    freshest ingredients. None of the food is processed or frozen. Everything from our
+                                    kebabs to our pita's are made fresh and in house. Our pita's have the perfect
+                                    thickness
+                                    and shape and are slathered with meats, cheeses, or vegetables, and sometimes all
+                                    three!
+                                    Our zucchini pancakes, served with a deliciously thick yogurt garlic sauce are an
+                                    instant classic. Try one of our kebabs where you can mix and match each to savor the
+                                    flavor. We offer delicious homemade specialties at prices under $20.We also make the
+                                    best deserts that are prepared daily. Come on in or give us a call to cater your
+                                    next
+                                    party. There is also a daily 2 course lunch special with a complimentary glass of
+                                    wine
+                                    for $12.99.</p>
+                            </div>
+
+                            <div class="description">
+                                <p class="title">Hours</p>
+                                <p class="description-detail"><span>Regular Hours</span> <br><span>Mon - Sun:</span>
+                                    11:00 am - 10:30 pm</p>
+                            </div>
+
+                            <div class="description">
+                                <p class="title">Services/Products</p>
+                                <p class="description-detail">* Lunch * Dinner * Catering</p>
+                            </div>
+                            <div class="description">
+                                <p class="title">Payment method</p>
+                                <p class="description-detail">Amex, Discover, Master Card, Visa</p>
+                            </div>
+                            <div class="description">
+                                <p class="title">Price Range</p>
+                                <p class="description-detail">$$</p>
+                            </div>
+                            <div class="description">
+                                <p class="title">Neighborhoods</p>
+                                <p class="description-detail"><a href="#">Lincoln
+                                        Square,</a> <a href="#">Upper
+                                        West Side,</a> <a href="#">Upper
+                                        Manhattan</a></p>
+                            </div>
+                            <div class="description">
+                                <p class="title">Languages</p>
+                                <p class="description-detail">English, Turkish</p>
+                            </div>
+                            <div class="description">
+                                <p class="title">Categories</p>
+                                <p class="description-detail"><a href="#">Mediterranean
+                                        Restaurants,</a><a href="#">
+                                        Caterers,</a><a href="#">Middle
+                                        Eastern Restaurants,</a><a href="#">Restaurants,</a><a href="#">Seafood
+                                        Restaurants</a></p>
+                            </div>
+                            <div class="description">
+                                <p class="title"><span>Other Information</span></p>
+                                <p class="description-detail">
+                                    <span>Parking: </span> Street <br>
+                                    <span>Wi-Fi: </span> No <br>
+                                    <span>Bike Parking:</span> Yes <br>
+                                    <span>Attire:</span> Casual <br>
+                                    <span>Cuisines:</span> Mediterranean, Caterers, Seafood, Middle Eastern <br>
+                                    <span>Alcohol:</span> Full Bar <br>
+                                    <span>Takes Reservations:</span> Yes <br>
+                                    <span>Outdoor Seating</span> No <br>
+                                    <span>Price Range </span> Average <br>
+                                    <span>Good For Groups: </span> Yes
+
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="main-right">
+                        <h4 class="main-right-title">SEVEN'S TURKISH GRILL MENU</h4>
+                        <div class="items">
+                            <a href="#" class="item-category">Soups/Corbalar</a>
+                            <p class="item-name">Lentil <label class="price">$4.75</label></p>
+                            <p class="item-name">Chicken Vegetable <label class="price">$4.75</label></p>
+                            <p class="item-name">Yayla Soup <label class="price">$4.75</label></p>
+                            <br>
+                            <a href="#" class="item-category">Salads</a>
+                            <p class="item-name">Shepherd's Salad (Coban Salatasi) <label class="price">$8.00</label>
+                            </p>
+                            <p class="item-name">Shepherd's Salad with Feta Cheese <label class="price">$4.75</label>
+                            </p>
+                            <p class="item-name">Mediterranean Salad (Akdeniz Salatasi) <label
+                                    class="price">$4.75</label>
+                            </p>
+                            <br>
+                            <a href="#" class="item-category">Hot Appetizers</a>
+                            <p class="item-name">Octopus (Ahtapot Salatasi) <label class="price">$8.00</label></p>
+                            <p class="item-name">Pan Fried Eggplant (Patlican Kizartmasi) <label
+                                    class="price">$7.50</label>
+                            </p>
+                            <p class="item-name">Fried Calamari (Kalamar Tava) <label class="price">$8.75</label></p>
+                            <br>
+                            <a href="#" class="item-category">Cold Appetizers</a>
+                            <p class="item-name">Mixed Appetizers (Karisik-Mezeler) <label class="price">$13.75</label>
+                            </p>
+                            <p class="item-name">Lebni <label class="price">$6.50</label></p>
+                            <p class="item-name">Babaganush <label class="price">$7.00</label></p>
+                            <br>
+                            <a href="#" class="item-category">Entrees</a>
+                            <p class="item-name">Homemade Gyro / Doner Kebab <label class="price">$14.00</label></p>
+                            <p class="item-name">Alexander Kebab (Iskender Kebab) <label class="price">$17.25</label>
+                            </p>
+                            <br>
+                            <a href="#" class="view__full__menu">View Full Menu</a>
+                            <br>
+                            <p class="provided__by__txt" style="text-align: right;">Provided by <br><img
+                                    src="./img/logo3.png" height="30px" width="30px"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews" id="re">
+                    <h3 class="review__title">Reviews</h3>
+                    <div class="rating">
+                        <i class="fas fa-user-alt"></i>
+                        <label><b>Hi there,</b> <br> rate this business</label>
+                        <div class="stars__div">
+                            <span class="fa fa-star user-rating"></span>
+                            <span class="fa fa-star user-rating"></span>
+                            <span class="fa fa-star user-rating"></span>
+                            <span class="fa fa-star user-rating"></span>
+                            <span class="fa fa-star user-rating"></span>
+                        </div>
+                        <label style="padding: 10px;"> Click to Rate</label>
+                    </div>
+
+                    <div class="user-review">
+                        <div class="main__user__review__profile">
+                            <img src="./img/u1.png" class="user-profile">
+                            <div class="user__review__name__date">
+                                <a href="#" class="user-name">Sarit Ca.</a>
+                                <span class="date">07/12/2016
+                                </span>
+                            </div>
+                        </div>
+                        <div class="rating-sec">
+                            <div class="user-review-left">
+                                <div class="overall__stars__main">
+                                    <span class="fa fa-star checked rated__stars__overall"></span>
+                                    <span class="fa fa-star checked rated__stars__overall"></span>
+                                    <span class="fa fa-star checked rated__stars__overall"></span>
+                                    <span class="fa fa-star unrated__stars rated__stars__overall"></span>
+                                    <span class="fa fa-star unrated__stars rated__stars__overall"></span>
+                                    <span class="overall__heading"> Overall </span></div><br>
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star unrated__stars rated__stars__users"></span>
+                                <span class="fa fa-star unrated__stars rated__stars__users"></span> <span
+                                    style="font-size: 12px;">Atmosphere</span><br>
+
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star rated__stars__users unrated__stars"></span> <span
+                                    style="font-size: 12px;">Food</span><br>
+
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star rated__stars__users unrated__stars"></span> <span
+                                    style="font-size: 12px;">Service</span>
+                            </div>
+
+                            <div class="user-review-right">
+                                <p class="user-comment">I would recommend trying this place to anyone. the food was
+                                    really
+                                    good. I had a great experience.</p>
+
+                                <button class="helpful-btn"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                    Helpful (1)</button>
+                                <a class="share__link" href="#"><i class="fa fa-external-link" aria-hidden="true"></i>
+                                    Share</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user-review">
+                        <div class="main__user__review__profile">
+                            <img src="./img/u1.png" class="user-profile">
+                            <div class="user__review__name__date">
+                                <a href="#" class="user-name">Sarit Ca.</a>
+                                <span class="date">07/12/2016
+                                </span>
+                            </div>
+                        </div>
+                        <div class="rating-sec">
+                            <div class="user-review-left">
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star unrated__stars rated__stars__users"></span>
+                                <span class="fa fa-star unrated__stars rated__stars__users"></span>
+                                Overall
+                            </div>
+
+                            <div class="user-review-right">
+                                <p class="user-comment">Great food, really enjoyed the experience. I've been to this
+                                    place
+                                    several times and I'll be back, telling all my friends about it.
+
+                                </p>
+
+                                <button class="helpful-btn"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                    Helpful (0)</button>
+                                <a class="share__link" href="#"><i class="fa fa-external-link" aria-hidden="true"></i>
+                                    Share</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user-review">
+                        <div class="main__user__review__profile">
+                            <img src="./img/u1.png" class="user-profile">
+                            <div class="user__review__name__date">
+                                <a href="#" class="user-name">Sarit Ca.</a>
+                                <span class="date">07/12/2016
+                                </span>
+                            </div>
+                        </div>
+                        <div class="rating-sec">
+                            <div class="user-review-left">
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star checked rated__stars__users"></span>
+                                <span class="fa fa-star unrated__stars rated__stars__users"></span>
+                                <span class="fa fa-star unrated__stars rated__stars__users"></span>
+                                Overall
+                            </div>
+
+                            <div class="user-review-right">
+                                <p class="user-comment">Great food, really enjoyed the experience. I've been to this
+                                    place
+                                    several times and I'll be back, telling all my friends about it.
+
+                                </p>
+
+                                <button class="helpful-btn"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                    Helpful (0)</button>
+                                <a class="share__link" href="#"><i class="fa fa-external-link" aria-hidden="true"></i>
+                                    Share</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- restaurants detail end -->
+            <!-- footer -->
+            <footer>
+                <div class="container">
+                    <div class="footer__top d-none-footer">
+                        <div class="footer__col">
+                            <h3 class="footer__title">About</h3>
+                            <ul class="footer__col__list">
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">About Us</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Site Feedback</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Contact Us</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Legal</a><span>|</span><a href="#"
+                                        class="footer__col__item">Terms of Service and Use</a>"
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Advertise with Us</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Corporate Blog</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Privacy Policy</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Small Business Advertising</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Advertising Choices</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <h3 class="footer__title">Site Directory</h3>
+                            <ul class="footer__col__list">
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Articles</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">News</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Find a Business</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">White Pages</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">YP Mobile App</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Gas Guru Mobile App</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Reverse Phone Lookup</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Site Map</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Browse Restaurants</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__col footer__col-3">
+                            <h3 class="footer__title">City Guides <a href="#" class="footer__subtitle">More Cities »</a>
+                            </h3>
+                            <div class="footer__col-3__nav">
+                                <ul class="footer__col__list">
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Atlanta</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Austin</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Baltimore</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Boston</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Charlotte</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Chicago</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Dallas</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Denver</a>
+                                    </li>
+                                </ul>
+                                <ul class="footer__col__list">
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Detroit</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Houston</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Indianapolis</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Kansas City</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Las Vegas</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Los Angeles</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Louisville</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Memphis</a>
+                                    </li>
+                                </ul>
+                                <ul class="footer__col__list">
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Miami</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Milwaukee</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">New York</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Oklahoma City</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Orlando</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Philadelphia</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Phoenix</a>
+                                    </li>
+                                    <li class="footer__col__item">
+                                        <a href="#" class="footer__col__item">Saint Louis</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__col">
+                            <h3 class="footer__title">YP<sup>SM</sup> Family</h3>
+                            <ul class="footer__col__list">
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Corporate Site</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">Marketing Solutions</a>
+                                </li>
+                                <li class="footer__col__item">
+                                    <a href="#" class="footer__col__item">AnyWho</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__bottom d-none-footer">
+                        <ul class="footer__bottom__social">
+                            <li class="footer__bottom__social__item">
+                                <a href="#" class="footer__bottom__social__link fb"><i
+                                        class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="footer__bottom__social__item">
+                                <a href="#" class="footer__bottom__social__link tw"><i class="fab fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                        <p class="footer__bottom__txt">© 2020 Thryv, Inc. All rights reserved.</p>
+                        <p class="footer__bottom__txt">YP, the YP logo and all other YP marks contained herein are
+                            trademarks of YP LLC and/or YP affiliated companies.</p>
+                        <p class="footer__bottom__txt">All other marks contained herein are the property of their
+                            respective
+                            owners.</p>
+                    </div>
+                    <div class="aside__header__footer d-none-footer-on-ds">
+                        <a href="#">Full Site</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Privacy Policy</a><br>
+                        <a href="#">Articles</a>
+                        <a href="#">Explore Cities</a><br>
+                        <a href="#">Contact Us</a>
+                        <p class="aside__header__copyright">©2020 Thryv, Inc. All rights reserved.</p>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer end -->
+    </section>
+    <!-- aside Nav -->
+    <aside class="aside__header">
+        <div class="header__aside__overlay">
+
+        </div>
+        <nav class="aside__header__nav">
+            <ul class="aside__header__ul">
+                <li class="aside__header__ul__item">
+                    <a class="aside__header__ul__li__link" href="#"><img class="header__list__sub__menu__item__icon"
+                            src="./img/restaurants.svg" alt="">Log
+                        In</a>
+                </li>
+                <li class="aside__header__ul__item">
+                    <a class="aside__header__ul__li__link" href="#"><img class="header__list__sub__menu__item__icon"
+                            src="./img/restaurants.svg" alt="">Sign
+                        Up</a>
+                </li>
+            </ul>
+            <ul class="aside__header__ul">
+                <span href="#" class="aside__header__ul__browse">Browse</span>
+                <li class="header__list__item">
+                    <ul class="header__list__sub__menu__list ">
+                        <li class="aside__header__ul__li__item">
+                            <span class="aside__header__ul__li__link"> <img class="header__list__sub__menu__item__icon"
+                                    src="./img/auto-services.svg" alt="">Auto services</span>
+                            <div class="aside__header__link__inner__sub__menu">
+                                <ul class="sub__menu__item__inner__sub__list">
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Body
+                                            Shops</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Glass
+                                            Repair</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Parts</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Car
+                                            Detailing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Oil
+                                            Change</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Roadside
+                                            Assistance</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Tire
+                                            Shops</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Towing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Window
+                                            Tinting</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="aside__header__ul__li__item">
+                            <span class="aside__header__ul__li__link"> <img class="header__list__sub__menu__item__icon"
+                                    src="./img/beauty.svg" alt="">
+                                Beauty</span>
+                            <div class="aside__header__link__inner__sub__menu">
+                                <ul class="sub__menu__item__inner__sub__list">
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Body
+                                            Shops</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Glass
+                                            Repair</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Parts</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Car
+                                            Detailing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Oil
+                                            Change</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Roadside
+                                            Assistance</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Tire
+                                            Shops</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Towing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Window
+                                            Tinting</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="aside__header__ul__li__item">
+                            <span class="aside__header__ul__li__link"> <img class="header__list__sub__menu__item__icon"
+                                    src="./img/home-services.svg" alt=""> Home services</span>
+                            <div class="aside__header__link__inner__sub__menu">
+                                <ul class="sub__menu__item__inner__sub__list">
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Body
+                                            Shops</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Glass
+                                            Repair</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Parts</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Car
+                                            Detailing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Oil
+                                            Change</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Roadside
+                                            Assistance</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Tire
+                                            Shops</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Towing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Window
+                                            Tinting</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="aside__header__ul__li__item">
+                            <span class="aside__header__ul__li__link"> <img class="header__list__sub__menu__item__icon"
+                                    src="./img/insurance.svg" alt="">insurance</span>
+                            <div class="aside__header__link__inner__sub__menu">
+                                <ul class="sub__menu__item__inner__sub__list">
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Body
+                                            Shops</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Glass
+                                            Repair</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Parts</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Car
+                                            Detailing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Oil
+                                            Change</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Roadside
+                                            Assistance</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Tire
+                                            Shops</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Towing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Window
+                                            Tinting</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="aside__header__ul__li__item">
+                            <span class="aside__header__ul__li__link"> <img class="header__list__sub__menu__item__icon"
+                                    src="./img/legal-services.svg" alt="">legal services</span>
+                            <div class="aside__header__link__inner__sub__menu">
+                                <ul class="sub__menu__item__inner__sub__list">
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Body
+                                            Shops</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Glass
+                                            Repair</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Auto
+                                            Parts</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Car
+                                            Detailing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Oil
+                                            Change</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Roadside
+                                            Assistance</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Tire
+                                            Shops</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Towing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="aside__header__link__inner__sub__menu__link">Window
+                                            Tinting</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="aside__header__ul__li__link"> <img class="header__list__sub__menu__item__icon"
+                                    src="./img/medical-services.svg" alt="">medical services</span>
+                            <div class="aside__header__link__inner__sub__menu">
+                                <ul class="sub__menu__item__inner__sub__list">
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
+                                            Shops</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
+                                            Repair</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Car Detailing</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Roadside
+                                            Assistance</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Window Tinting</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Shops</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Tinting</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="aside__header__ul__li__link"> <img class="header__list__sub__menu__item__icon"
+                                    src="./img/pet-services.svg" alt="">pet services</span>
+                            <div class="aside__header__link__inner__sub__menu">
+                                <ul class="sub__menu__item__inner__sub__list">
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
+                                            Shops</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
+                                            Repair</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Car Detailing</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Roadside
+                                            Assistance</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Window Tinting</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="aside__header__ul__li__link"> <img class="header__list__sub__menu__item__icon"
+                                    src="./img/restaurants.svg" alt="">restaurants</span>
+                            <div class="aside__header__link__inner__sub__menu">
+                                <ul class="sub__menu__item__inner__sub__list">
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Auto Body
+                                            Shops</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Auto Glass
+                                            Repair</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Auto Parts</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Car Detailing</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Oil Change</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Roadside
+                                            Assistance</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Tire Shops</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Towing</a>
+                                    </li>
+                                    <li class="sub__menu__item__inner__sub__menu__item">
+                                        <a href="#" class="sub__menu__item__inner__sub__link">Window Tinting</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+            <ul class="aside__header__ul">
+                <li>
+                    <span class="aside__header__ul__li__link"> <img class="header__list__sub__menu__item__icon"
+                            src="./img/legal-services.svg" alt="">legal services</span>
+
+                </li>
+                <li>
+                    <span class="aside__header__ul__li__link"> <img class="header__list__sub__menu__item__icon"
+                            src="./img/medical-services.svg" alt="">medical services</span>
+
+                </li>
+                <li>
+                    <span class="aside__header__ul__li__link"> <img class="header__list__sub__menu__item__icon"
+                            src="./img/pet-services.svg" alt="">pet services</span>
+
+                </li>
+                <li>
+                    <span class="aside__header__ul__li__link"> <img class="header__list__sub__menu__item__icon"
+                            src="./img/restaurants.svg" alt="">restaurants</span>
+
+                </li>
+            </ul>
+            <ul class="aside__header__ul">
+                <li>
+                    <span class="aside__header__ul__li__link"> <img class="header__list__sub__menu__item__icon"
+                            src="./img/legal-services.svg" alt="">Contact Us</span>
+
+                </li>
+            </ul>
+            <div class="aside__header__footer">
+                <a href="#">Full Site</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy Policy</a><br>
+                <a href="#">Articles</a>
+                <a href="#">Explore Cities</a><br>
+                <a href="#">Contact Us</a>
+                <p class="aside__header__copyright">©2020 Thryv, Inc. All rights reserved.</p>
+            </div>
+        </nav>
+    </aside>
+    <!-- aside Nav end -->
+    <script src="./js/script.js"></script>
 
 </body>
 
