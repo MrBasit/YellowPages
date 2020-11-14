@@ -134,8 +134,8 @@ try {
     const asideBar = document.querySelector('.aside__header');
     const mainContent = document.querySelector('.main__content__for__mobile');
 
-    // asideBarTrigger.addEventListener('click', asideBarFunc);
-    // asideBarOverlay.addEventListener('click', asideBarFunc);
+    asideBarTrigger.addEventListener('click', asideBarFunc);
+    asideBarOverlay.addEventListener('click', asideBarFunc);
 
     function asideBarFunc() {
         asideBar.classList.toggle('active');
