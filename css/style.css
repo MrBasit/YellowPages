@@ -158,6 +158,14 @@ CONTAINER
     .d-none-footer-on-ds{
         display: none;
     }
+    /* home */
+    .home__banner__content__left__inner{
+        position: relative;
+    }
+    .home__banner__content__right{
+        position: absolute;
+    }
+
 }
 @media (min-width: 992px){
 
@@ -170,8 +178,50 @@ CONTAINER
     .containers{
         width: min(800px, 90%);
     }
-
+    .home__banner__content__left__inner {
+        left: 9% !important;
+    }
+    .claim__business__container,
+    .bussiness__owner__container,
+    .covid__update__container {
+        padding: 0 8.9em !important;
+    }
+    .bussiness__owner__cont__main,
+    .covid__update__cont__main{
+        justify-content: space-between !important;
+    }
+    .claim__business__cont__main{
+        align-items: stretch !important;
+        justify-content: space-between !important;
+    }
+    .bussiness__owner__btn img{
+        width: 7rem;
+    }
+    .q__a__list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .q__a__list li {
+        margin-top: .3rem;
+    }
+    .home__banner__link{
+        font-size: .6rem !important;
+    }
     
+
+}
+/* Responsive Tab Only For Banner*/
+@media (max-width: 1250px){
+    .home__banner__link{
+        font-size: .7rem !important;
+    }
+
+}
+/* Responsive Tab Only For Banner*/
+@media (max-width: 850px){
+    .home__banner__link{
+        font-size: .6rem !important;
+    }
 
 }
 
@@ -203,7 +253,7 @@ CONTAINER
         display: block;
         order: 3;
         margin-left: 0 !important;
-        margin-top: 1rem;
+        margin-top: .5rem;
     }
     .use__our__mobile{
         display: inline-block;
@@ -291,8 +341,6 @@ CONTAINER
         overflow-x: none;
         z-index: 1099;
         color: var(--text-white);
-        -webkit-box-shadow: 0 3px 3px 4px rgba(0,0,0,.6);
-        box-shadow: 0 3px 3px 4px rgba(0,0,0,.6);
     }
     .aside__header.active .aside__header__nav{
         animation: asideBarAnim .3s linear;
@@ -382,20 +430,27 @@ CONTAINER
     .header__top{
         display: none;
     }
+    .home__banner__main{
+        padding: 0 !important;
+    }
     .home__banner__content{
         flex-direction: column;
         width: 100% !important;
     }
+    .home__banner__container{
+        width: 100% !important;
+    }
     .home__banner__content__left{
         width: 100% !important;
-        padding: 3em 2.5em 3.5em 2.5em !important;
+        padding: 1em 3.2em 1em 3.2em !important;
     }
     .home-banner_left__logo {
-        width: 8rem;
-        margin-bottom: 2.4rem !important;
+        width: 8rem !important;
+        margin-bottom: 2rem !important;
     }
     .home__banner__heading {
         font-size: 1.2rem !important;
+        margin-bottom: 0 !important;
     }
     .home__banner___search__box .header__list.header__list__2__main .header__list__2__main__item {
         padding: .2em .8em !important;
@@ -408,7 +463,7 @@ CONTAINER
         padding: .6em 0em !important;
     }
     .home__banner__list{
-        margin-top: 2rem !important;
+        margin-top: .7rem !important;
     }
     .d-none-home-banner-links{
         display: none;
@@ -416,6 +471,22 @@ CONTAINER
     .home__banner__link img{
         margin-right: 1.5rem !important;
         width: 1.5rem;
+    }
+    .home__banner__content__right{
+        width: 100% !important;
+        padding: 1em 3.2em 1em 3.2em !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .banner__content__right__heading{
+        margin-bottom: .5rem !important;
+    }
+    .banner__content__right__txt{
+        margin-bottom: .5rem !important;
+    }
+    .banner__content__right__btn{
+        margin-bottom: .5rem !important;
     }
     .covid__update__cont__main{
         flex-direction: column-reverse;
@@ -426,7 +497,19 @@ CONTAINER
     }
     .covid__update__contant{
         text-align: center;
-        margin-top: 3rem;
+        margin-top: 1rem;
+    }
+    .covid__update__heading{
+        margin: .5rem 0 !important;
+    }
+    .covid__update__txt{
+        margin-bottom: .5rem !important;
+    }
+    .covid__update__main{
+        padding: 1em 0 !important;
+    }
+    .bussiness__owner{
+        padding: 1em 0 !important;
     }
     .bussiness__owner__cont__main{
         flex-direction: column;
@@ -436,18 +519,44 @@ CONTAINER
         margin-right: 0 !important;
     }
     .bussiness__owner__contant{
-        margin-top: 3rem;
+        margin-top: 1rem;
         text-align: center;
     }
+    .bussiness__owner__heading{
+        margin-bottom: .5rem !important;
+    }
     .bussiness__owner__btn img{
-        max-width: 8rem;
+        max-width: 8rem !important;
     }
     .bussiness__owner__txt{
-        margin-bottom: 2rem !important;
+        margin-bottom: .6rem !important;
     }
     .bussiness__owner__user__stars__views{
         justify-content: center;
-        margin-top: 1.5rem !important;
+        margin-top: .5rem !important;
+    }
+    
+    .question__answer{
+        padding: 1em 0 !important;
+    }
+    .q__a__inner {
+        align-items: center !important;
+        flex-direction: column;
+        text-align: left;
+    }
+    .q__a__btn{
+        margin: 0 0 .5rem 0 !important;
+        padding: .8em 2em !important;
+    }
+    .q__a__list__title{
+        text-align: center;
+        margin-bottom: .4rem !important;
+    }
+    .q__a__list{
+        justify-content: center;
+    }
+    .q__a__list li{
+        margin-top: .3rem;
     }
     .claim__business__cont__main{
         flex-direction: column;
@@ -458,39 +567,29 @@ CONTAINER
     }
     .claim__business__contant{
         text-align: center;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
-    .q__a__inner {
-        align-items: flex-start !important;
-        flex-direction: column;
-        text-align: left;
+    .claim__txt{
+        margin-bottom: .5rem !important;
     }
-    .q__a__btn{
-        margin: 0 0 2rem 0 !important;
-        padding: .8em 2em !important;
+    .claim__business__main{
+        padding: 1em 0 !important;
     }
     .claim__heading{
         text-align: center;
+        margin-bottom: .5rem !important;
     }
     .claim__txt.q__a__inner__txt{
-        width: min(75%,100%);
-        margin: 1rem 0 1.5rem 0 !important;
+        width: min(75%,100%) !important;
+        margin: .5rem 0 .5rem 0 !important;
+        text-align: center;
     }
-    .q__a__list{
-        justify-content: center;
+    
+    .home__cards__main{
+        padding: 1em 0 !important;
     }
-    .q__a__list li{
-        margin-top: .8rem;
-    }
-
-    .home__banner__content__right{
-        width: 100% !important;
-        padding: 2em 2.5em 2em 2.5em !important;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
+    
+    
     .home__card__title{
         font-size: 1.1rem !important;
         display: flex;
@@ -526,10 +625,183 @@ CONTAINER
         border-radius: 20px;
     }
     /*
+    ===============================
+        Restaurants Detail / Grill
+    ===============================
+    */
+    .business-card-bg {
+        margin-bottom: 14rem !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 34rem !important;
+        padding: 1em 0 1em 0!important;
+        margin-bottom: 0rem !important;
+    }
+    .business-card{
+        margin-bottom: 0 !important;
+    }
+    .containers{
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .left .count{
+        margin: .15rem 0 1.5rem 0 !important;
+    }
+    .right{
+        text-align: left !important;
+        margin-top: .5rem;
+    }
+    .right.location{
+        text-align: left !important;
+    }
+    .right div{
+        margin-top: .5rem !important;
+        margin-bottom: .5rem;
+    }
+    .body .link{
+        padding-top: .5em !important;
+    }
+    .main{
+        flex-direction: column-reverse;
+        margin-top: .7rem !important;
+    }
+    .main-left .msg{
+        margin-top: .7rem !important;
+    }
+    .main-right{
+        width: 100% !important;
+    }
+    
+    .provided__by__txt img{
+        margin-top: 0 !important;
+    }
+    .main-left{
+        width: 100% !important;
+    }
+    .main-left .msg{
+        text-align: center;
+    }
+    .nav-link.active{
+        position: absolute !important;
+    }
+    .web-description{
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    .description{
+        margin-top: 1rem !important;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+    }
+    .description .title{
+        margin-bottom: .4rem;
+    }
+    .description-detail{
+        line-height: 1.1 !important;
+        width: 100% !important;
+        text-align: center;
+        margin-top: .1rem;
+    }
+    .reviews{
+        width: 100% !important;
+    }
+    
+    .background .rating{
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 0 !important;
+    }
+    .background .rating > i{
+        margin-bottom: .5rem !important;
+    }
+    .user-profile{
+        width: 3.2rem !important;
+    }
+    .rating-sec{
+        flex-direction: column;
+    }
+    .user-review-left{
+        width: 100% !important;
+        padding-bottom: .4em !important;
+    }
+    .helpful-btn{
+        margin-top: .7rem !important;
+    }
+    /*
+    =============================
+        Restaurants
+    =============================
+    */
+    .sortoutlist1 .btn{
+        font-size: .8rem;
+    }
+    .restaurants__content__main{
+        flex-direction: column;
+    }
+    .restaurants__content{
+        width: 100% !important;
+    }
+    .map__for__sortout__list{
+        display: block !important;
+        margin-top: 1rem;
+        height: 12rem;
+    }
+    .map__for__sortout__list img{
+        object-fit: cover;
+    }
+    .info__main{
+        flex-direction: column;
+    }
+    .info{
+        width: 100% !important;
+    }
+    .media-thumbnail{
+        margin-bottom: .7rem;
+    }
+    .info__content__main{
+        flex-direction: column;
+    }
+    .info-section1{
+        width: 100% !important;
+    }
+    .info-section2{
+        width: 100% !important;
+        text-align: left !important;
+    }
+    .more__content{
+        text-align: center !important;
+    }
+    .snippet{
+        width: min(70%,100%);
+        margin: 0 auto;
+    }
+    .snippet a{
+        flex-direction: column;
+    }
+    .snippet a p{
+        text-align: center !important;
+        margin: .7em 0 !important;
+    }
+    .restaurants__main aside{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .map{
+        display: none;
+    }
+    .covid__19__alert{
+        display: none;
+    }
+    /*
     =============================
         footer
     =============================
     */
+    footer{
+        padding: 0 0 1em 0 !important;
+    }
     .d-none-footer{
         display: none !important;
     }
@@ -546,7 +818,6 @@ CONTAINER
 }
 /* Responsive Small Mobile */
 @media (max-width: 320px){
-   
 }
 /*
 =============================
@@ -725,11 +996,13 @@ header{
     width: max-content;
 }
 .header__list__2__main__btn input{
+    -webkit-appearance: button;
+    -webkit-appearance: none;
     background-color: var(--footer-title-color);
     color: var(--text-color);
     font-weight: 500;
     font-size: 1.25rem;
-    padding: .6em .8em;
+    padding: .6em 0;
     letter-spacing: .5px;
     cursor: pointer;
     width: 100%;
@@ -827,7 +1100,7 @@ header{
 .sub_main_ul_default{
     position: absolute;
     bottom: -10.3rem;
-    z-index: 6000;
+    z-index: 400;
     width: 7rem;
     background-color: var(--text-white);
     text-align: center;
@@ -879,19 +1152,28 @@ header{
 .sortoutlist2{
     padding: .6em .8em;
     background-color: var(--text-white);
+    display: flex;
+    align-items: center;
 }
 .sortoutlist2__filter{
     margin: 0 .5rem;
+    display: flex;
+    align-items: center;
 }
 .sortoutlist2__filter > .remove{
     font-size: .75rem;
     color: var(--footer-color);
     width: 13px;
     height: 13px;
-    text-align: center;
-    display: inline-block;
     border-radius: 50%;
-    background-color:var(--text-white)
+    background-color:var(--text-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .3rem;
+}
+.map__for__sortout__list{
+    display: none;
 }
 .msg{
     font-size: .875rem;
@@ -1330,25 +1612,60 @@ aside div + div{
     text-align: right;    
 }
 
-
-
 /*
-=============================
-	Restaurants Detail
-=============================
+===============================
+	Restaurants Detail / Grill
+===============================
 */
-.background
-{
+.business-card-bg{
     background-image: url(../img/default_claimed_background.jpg);
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
-    height: 26.2rem;
-    padding-top: 8rem;
+    background-repeat: no-repeat;
+    max-height: 24rem;
+    padding-top: 4em;
+    margin-bottom: 4.3rem;
+}   
+
+.body
+{
+    margin: 0 auto 2rem auto;
 }
+
+.business-card
+{
+    background-color: var(--text-white);
+    padding: 19px 20px;
+    margin-bottom: -5rem;
+    
+}
+.business-card .count > p
+{
+    color: var(--txt-darkmore);
+    font-size: .7rem;
+    text-transform: uppercase;
+}
+.business-card .link > a
+{
+    color: var(--text-blue);
+    margin-right: 1.2rem;
+}
+.business-card .link
+{
+    padding-top: 10px;
+    border-top: 1px solid var(--color-lightgrey-more);
+}
+.containers
+{
+    display:flex;
+    justify-content: space-between;
+}
+
 .business-card__title{
     font-weight: 500;
     color: var(--txt-dark);
     line-height: 1.4;
+    padding: 1em;
 }
 .left .addr{
     color: var(--txt-lightdark);
@@ -1379,12 +1696,6 @@ aside div + div{
     margin-right: .5rem;
 }
 
-.body .count > p
-{
-    color: var(--txt-darkmore);
-    font-size: .7rem;
-    text-transform: uppercase;
-}
 .unrated__stars{
     color:var(--color-lightgrey-more8);
 }
@@ -1426,25 +1737,27 @@ aside div + div{
     transform: scale(1.7);
     margin-right: .5rem;
 }
+.location{
+    text-align: right;
+}
+.right div{
+    margin-top: 1.4rem;
+}
 #map-button
 {
     padding: .5em 1em;
     background-color: var(--bg-blueBtnMap);
-    margin-top: 1.2rem;
     border: 1px solid var(--border-blueBtnMap);
     color: var(--txt-dark);
     font-size: .8rem;
     font-weight: 600;
+    display: inline-block;
 }
 #map-button i{
     transform: scale(1.5);
     margin-right: .5rem;
 }
-.body .link > a
-{
-    color: var(--text-blue);
-    margin-right: 1.2rem;
-}
+
 .main-left .msg{
     margin-top: 0;
 }
@@ -1699,38 +2012,13 @@ aside div + div{
     visibility: visible;
     opacity: 1;
 }
-.body .link
-{
-    padding-top: 10px;
-    border-top: 1px solid var(--color-lightgrey-more);
-}
+
 .rating-sec
 {
     display: flex;
 }
 /*  */
 
-.body
-{
-    margin: 0 auto 2rem auto;
-}
-
-.business-card
-{
-    background-color: var(--text-white);
-    min-height: 235px;
-    padding: 19px 20px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 70px;
-}
-
-
-.containers
-{
-    display:flex;
-    justify-content: space-between;
-}
 
 .right
 {
@@ -1868,10 +2156,11 @@ aside div + div{
     background-image: url('../img/restaurant_4.jpg');
     zoom: 1;
     background-size: cover;
+    padding: 0 2em;
     
 }
 .home__banner__container{
-    width: min(1300px, 90%);
+    width: min(1300px, 100%);
     margin: auto;
     display: flex;
     justify-content: center;
@@ -1879,20 +2168,20 @@ aside div + div{
 
 .home__banner__content{
     display: flex;
-    width: 98%;
+    width: 100%;
+    position: relative;
 }
 .home__banner__content__left{
-    width: 80%;
+    width: 100%;
     background-image: url(../img/restaurant_41.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5em 0 6.5em 0;
     z-index: 300;
+    padding: 5em 0;
 }
 .home__banner__content__left__inner{
-    position: relative;
-    right: -22.3%;
-    width: 70%;
+    width: 55%;
+    left: 20.5%;
 }
 .home-banner_left__logo{
     width: 10rem;
@@ -1931,6 +2220,10 @@ aside div + div{
     color: var(--text-white);
     text-align: center;
     padding: 4.8em 1em 0 1em;
+    right: 0;
+    top: 0;
+    z-index: 400;
+    bottom: 0;
 }
 .banner__content__right__heading{
     font-weight: 500;
@@ -1958,17 +2251,15 @@ aside div + div{
     text-decoration: underline;
 }
 
-
-
-
 /*  */
 .covid__update__main{
     background-color: var(--text-white);
     padding: 3.5em 0;
 }
 .covid__update__container{
-    width: min(1000px, 80%);
+    width: min(1300px, 100%);
     margin: 0 auto;
+    padding: 0 15.9em;
 }
 .covid__update__cont__main{
     display: flex;
@@ -2018,8 +2309,9 @@ aside div + div{
     width: 22rem;
 }
 .bussiness__owner__container{
-    width: min(1000px, 80%);
+    width: min(1300px, 100%);
     margin: 0 auto;
+    padding: 0 15.9em;
 }
 .bussiness__owner__cont__main{
     display: flex;
@@ -2051,6 +2343,9 @@ aside div + div{
 .bussiness__owner__learn__more__link:hover{
     text-decoration: underline;
 }
+.bussiness__owner__btn img{
+    max-width: 8.5rem;
+}
 .bussiness__owner__btn + .bussiness__owner__btn{
   margin-left: .5rem;
 }
@@ -2071,7 +2366,6 @@ aside div + div{
 .bussiness__owner__users__view{
     font-size: .8rem;
 }
-
 
 
 /*  */
@@ -2140,8 +2434,9 @@ aside div + div{
     padding: 3.5em 0;
 }
 .claim__business__container{
-    width: min(1000px, 80%);
+    width: min(1300px, 100%);
     margin: 0 auto;
+    padding: 0 15.9em;
 }
 .claim__business__cont__main{
     display: flex;
@@ -2349,7 +2644,6 @@ footer{
 .footer__col__item:hover{
 	text-decoration: underline;
 }
-
 
 /* footer Bottom */
 .footer__bottom{
