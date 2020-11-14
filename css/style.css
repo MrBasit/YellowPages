@@ -692,7 +692,7 @@ CONTAINER
     .description{
         margin-top: 1rem !important;
         flex-direction: column; 
-        align-items: center;
+        align-items: left;
         justify-content: center;
     }
     .description .title{
@@ -701,7 +701,7 @@ CONTAINER
     .description-detail{
         line-height: 1.1 !important;
         width: 100% !important;
-        text-align: center;
+        text-align: left;
         margin-top: .1rem;
     }
     .reviews{
@@ -738,7 +738,7 @@ CONTAINER
         font-size: .8rem;
     }
     .restaurants__content__main{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .restaurants__content{
         width: 100% !important;
@@ -771,28 +771,29 @@ CONTAINER
         text-align: left !important;
     }
     .more__content{
-        text-align: center !important;
+        text-align: left !important;
     }
-    .snippet{
-        width: min(70%,100%);
-        margin: 0 auto;
-    }
-    .snippet a{
-        flex-direction: column;
+    .snippet a i{
+        margin-right: .7rem;
     }
     .snippet a p{
-        text-align: center !important;
+        text-align: left !important;
         margin: .7em 0 !important;
     }
     .restaurants__main aside{
         width: 100% !important;
         margin-left: 0 !important;
+        margin-bottom: 1rem;
     }
     .map{
         display: none;
     }
+    
     .covid__19__alert{
         display: none;
+    }
+    .d-none-reviews{
+        display: none !important;
     }
     /*
     =============================
@@ -1846,35 +1847,7 @@ aside div + div{
     color: var(--txt-dark);
     margin-bottom: 1rem;
 }
-.item-category{
-    color: var(--text-blue3);
-    line-height: 1.5;
-}
-.item-name
-{
-    color: var(--color-lightgrey-more5);
-    font-size: .8rem;
-    line-height: 1.4;
-}
 
-.price
-{
-    float: right;
-}
-.view__full__menu{
-    color: var(--text-blue3);
-    line-height: 1.5;
-    font-size: .85rem;
-}
-.provided__by__txt{
-    font-size: .8rem;
-    color: var(--txt-dark);
-    font-weight: 500;
-}
-.provided__by__txt img{
-    margin-top: .2rem;
-    width: 2.3rem;
-}
 .user-review
 {
     padding: 1.2em 1em;
@@ -2040,7 +2013,7 @@ aside div + div{
 .main-right
 {
     width: 30%;
-    padding: 10px;
+    padding: 0 10px 20em 10px;
     background-color: var(--text-white);
 }
 
