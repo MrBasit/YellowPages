@@ -951,6 +951,7 @@ header{
     font-size: .85rem;
     font-weight: 600;
     color: var(--text-blue);
+    cursor: not-allowed;
 }
 
 .header__list__2__main{
@@ -1005,7 +1006,7 @@ header{
     font-size: 1.25rem;
     padding: .6em 0;
     letter-spacing: .5px;
-    cursor: pointer;
+    cursor: not-allowed;
     width: 100%;
 }
 
@@ -1059,6 +1060,7 @@ header{
     font-size: 1rem;
     letter-spacing: .5px;
     color: var(--text-blue);
+    cursor: not-allowed;
 }
 .restaurants__sortoutlist__col2__link + .restaurants__sortoutlist__col2__link{
     margin-top: .5rem;
@@ -1079,6 +1081,9 @@ header{
     background-color: var(--sec2-sortoutlist-bg);
     display: flex;
     align-items: center;
+}
+.sortoutlist1 > a{
+  cursor: not-allowed;
 }
 .sortoutlist1 .btn{
     margin-right: .7rem;
@@ -1137,6 +1142,7 @@ header{
     font-weight: 400;
     color: var(--color-lightgrey);
     background-color: var(--text-white);
+    cursor: not-allowed;
 }
 .sub_main_ul_default ul li + li{
     border-top: 1px solid var(--color-lightgrey-more);
@@ -1160,6 +1166,7 @@ header{
     margin: 0 .5rem;
     display: flex;
     align-items: center;
+    cursor: not-allowed;
 }
 .sortoutlist2__filter > .remove{
     font-size: .75rem;
@@ -1222,6 +1229,7 @@ header{
     font-size: 1.3rem;
     font-weight: 100;
     color: var(--text-blue);
+    cursor: not-allowed;
     
 }
 .info-section1{
@@ -1238,6 +1246,7 @@ header{
     color: var(--color-cat);
     font-weight: 500;
     letter-spacing: .5px;
+    cursor: not-allowed;
 }
 
 
@@ -1270,6 +1279,7 @@ header{
 .count{
     color: var(--text-blue);
     font-size: inherit;
+    cursor: not-allowed;
 }
 
 .bbb-rating{
@@ -1301,6 +1311,7 @@ header{
 .rating__link a{
     color: var(--text-blue);
     font-size: .8rem;
+    cursor: not-allowed;
 }
 .restaurants__links{
     padding: 1em 0;
@@ -1310,6 +1321,7 @@ header{
     line-height: .8;
     color: var(--text-blue);
     font-size: 1rem;
+    cursor: not-allowed;
 }
 .restaurants__links a:nth-child(1){
     padding-left: 0;
@@ -1334,6 +1346,7 @@ header{
     font-size: .9rem;
     display: block;
     width: max-content;
+    cursor: not-allowed;
 }
 .location::before{
     content: "";
@@ -1374,6 +1387,7 @@ header{
     text-align: left;
     color: var(--text-blue);
     font-weight: 500;
+    cursor: not-allowed;
 }
 .preferred-listing-features a img{
     margin-right: .7rem;
@@ -1391,6 +1405,7 @@ header{
 .snippet a{
     display: flex;
     align-items: center;
+    cursor: not-allowed;
 }
 .snippet a p{
     font-size: .8rem;
@@ -1409,6 +1424,7 @@ header{
     display: inline-block;
     padding: 5px 10px;
     margin-top: 10px;
+    cursor: not-allowed;
 }
 .listing__btn i{
     margin-right: .3rem;
@@ -1456,6 +1472,10 @@ header{
 }
 .pagination ul li + li{
     margin-left: .4rem;
+  
+}
+.pagination ul li + li span:hover{
+  cursor: not-allowed;
 }
 .make__suggeston{
     display: flex;
@@ -1504,6 +1524,7 @@ header{
     border: 0;
     font-size: .9rem;
     font-weight: 700;
+    cursor: not-allowed;
 }
 aside div + div{
     margin-top: 1rem;
@@ -1529,6 +1550,7 @@ aside div + div{
     padding: 5px 10px;
     display: flex;
     align-items: center;
+    cursor: not-allowed;
 }
 
 .map__btn i{
@@ -1554,6 +1576,7 @@ aside div + div{
     font-size: .8125rem;
     color: var(--text-blue3);
     letter-spacing: .4px;
+    cursor: not-allowed;
 }
 
 .featured-listings .card + .card{
@@ -1566,6 +1589,7 @@ aside div + div{
     font-weight: 400;
     display: inline-block;
     margin-bottom: .3rem;
+    cursor: not-allowed;
 }
 
 .featured__card__content .phone{
@@ -1650,6 +1674,7 @@ aside div + div{
 {
     color: var(--text-blue);
     margin-right: 1.2rem;
+    cursor: not-allowed;
 }
 .business-card .link
 {
@@ -1674,17 +1699,20 @@ aside div + div{
     font-weight: 300;
     margin: .3rem 0 .6rem 0;
     display: inline-block;
+    cursor: not-allowed;
 }
 .left .left__view{
     color: var(--text-blue);
     font-size: .8rem;
     margin-left: .5rem;
+    cursor: not-allowed;
 }
 
 .left .count{
     display: flex;
     align-items: center;
     margin: 1rem 0 1.5rem 0;
+    cursor: context-menu;
 }
 
 #number
@@ -1753,6 +1781,7 @@ aside div + div{
     font-size: .8rem;
     font-weight: 600;
     display: inline-block;
+    cursor: not-allowed;
 }
 #map-button i{
     transform: scale(1.5);
@@ -1791,6 +1820,7 @@ aside div + div{
 {
     color: var(--text-blue);
     font-weight: 600;
+    cursor: not-allowed;
 }
 .stars__div{
     margin: 0 2rem 0 2rem;
@@ -1811,6 +1841,7 @@ aside div + div{
     outline: 0;
     font-size: .9rem;
     margin-right: .5rem;
+    cursor: not-allowed;
 }
 .add-new-phto-txt{
     color: var(--txt-lightgrey2);
@@ -1840,6 +1871,7 @@ aside div + div{
     font-size: .88rem;
     font-weight: 400;
     color: var(--text-blue3);
+    cursor: not-allowed;
 
 }
 .main-right-title{
@@ -1886,6 +1918,9 @@ aside div + div{
     padding: 1em 0;
     justify-content: start;
     border: 1px solid var(--rating-bg);
+}
+.background .rating > label:last-child{
+  cursor: not-allowed;
 }
 .user-rating
 {
@@ -1934,9 +1969,11 @@ aside div + div{
     color: var(--txt-lightgrey2);
     border: 1px solid var(--txt-lightgrey2);
     background-color: transparent;
+    cursor: not-allowed;
 }
 .share__link{
     color: var(--text-blue3);
+    cursor: not-allowed;
 }
 .user-review-left
 {
@@ -2066,6 +2103,13 @@ aside div + div{
     text-transform: uppercase;
     cursor: pointer;
     position: relative;
+  
+}
+.header__top__header__list__link:last-child{
+  cursor: not-allowed;
+}
+.header__top__ccpa{
+  cursor: not-allowed;
 }
 .header__top__item.active .header__top__header__list__link{
     border-top-color: var(--footer-title-color);
@@ -2088,6 +2132,7 @@ aside div + div{
     line-height: 1.8;
     display: block;
     font-size: .95rem;
+    cursor: not-allowed;
 }
 .header__top__list__link__hd a:hover,
 .header__top__row__title__list__link:hover{
@@ -2122,6 +2167,7 @@ aside div + div{
     font-size: .8rem;
     font-weight: 500;
     margin-left: 1rem;
+    cursor: not-allowed;
 }
 
 /*  */
@@ -2177,6 +2223,7 @@ aside div + div{
 .home__banner__link{
     font-size: .9rem ;
     color: var(--text-white);
+    cursor: not-allowed;
 }
 .home__banner__link img{
     margin-right: .6rem;
@@ -2267,6 +2314,7 @@ aside div + div{
     margin-bottom: 1rem;
     border-radius: 23px;
     font-weight: 600;
+    cursor: not-allowed;
 }
 .covid__update__img__main{
     width: 23rem;
@@ -2315,6 +2363,9 @@ aside div + div{
 }
 .bussiness__owner__learn__more__link:hover{
     text-decoration: underline;
+}
+.bussiness__owner__btn{
+  cursor: not-allowed;
 }
 .bussiness__owner__btn img{
     max-width: 8.5rem;
@@ -2382,6 +2433,7 @@ aside div + div{
     font-weight: 400;
     width: max-content;
     border-radius: 4px;
+    cursor: not-allowed;
 }
 .q__a__list__link:hover{
     background-color: var(--text-blue);
@@ -2399,7 +2451,7 @@ aside div + div{
     font-size: 1.1rem;
     width: max-content;
     margin-left: 3rem;
-    
+    cursor: not-allowed;
 }
 
 .claim__business__main{
@@ -2438,6 +2490,7 @@ aside div + div{
     display: inline-block;
     padding: .6em 2em;
     margin-bottom: 1rem;
+    cursor: not-allowed;
 }
 .claim__phone{
     color: var(--color-lightgrey);
@@ -2466,6 +2519,7 @@ aside div + div{
     font-weight: 400;
     font-size: .9rem;
     margin-left: 1.5rem;
+    cursor: not-allowed;
 }
 .home__card__row + .home__card__row{
     margin-top: 2rem;
@@ -2543,6 +2597,7 @@ aside div + div{
     background-color: var(--price-txt);
     font-size: 1rem;
     margin-bottom: .7rem;
+    cursor: not-allowed;
 }
 .home__card__overlay__save{
     padding: .6em 2em;
@@ -2550,6 +2605,7 @@ aside div + div{
     background-color: var(--text-white);
     border: 1px solid var(--price-txt);
     font-size: 1rem;
+    cursor: not-allowed;
 }
 .home__card__overlay__save i{
     margin-right: .5rem;
@@ -2596,7 +2652,8 @@ footer{
 .footer__title .footer__subtitle{
     color: var(--footer-title-color);
 	font-weight: 400;
-	font-size: .7rem;
+  font-size: .7rem;
+  cursor: not-allowed;
 }
 .footer__title sup{
 	font-size: .5rem;
@@ -2607,6 +2664,7 @@ footer{
     font-weight: 400;
     font-size: .8rem;
     margin-bottom: .1rem;
+    cursor: not-allowed;
 }
 
 .footer__col__item span{
@@ -2638,11 +2696,12 @@ footer{
     border-radius: 50%;
     font-size: 1rem;
     color: var(--text-white);
+    cursor: not-allowed;
 }
 
 .fb{
     background-color:#3b5998;
-    padding: .56em .8em;
+    padding: .5em .9em;
 }
 
 .tw{
